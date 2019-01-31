@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pbr = "*"
+
+[packages]
+python-dotenv = "*"
+pylint = "*"
+apistar = "==0.5.41"
+colorlog = "*"
+
+[requires]
+python_version = "3.7"
